@@ -28,44 +28,71 @@
     <meta charset="UTF-8">
     <style>
         body {
-            text-align: center; 
-            font-family: Shantell Sans, sans-serif;
             margin: 0;
-            padding: 50px 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
+            padding: 0;
+            font-family: 'Shantell Sans', sans-serif;
+            background: #f8f9fa;
             min-height: 100vh;
             display: flex;
-            flex-direction: column;
             justify-content: center;
+            align-items: center;
         }
         
-        .welcome-container {
-            max-width: 600px;
-            margin: 0 auto; 
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px;
+            margin: 20px;
+            transform: translateY(0);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
         }
         
         h1 {
-            font-size: 2.5em;
-            margin-bottom: 30px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            color: #2c3e50;
+            font-size: 2.2em;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        h2 {
+            color: #34495e;
+            font-size: 1.5em;
+            margin: 25px 0 15px 0;
         }
         
         p {
-            font-size: 1.2em;
+            color: #7f8c8d;
+            font-size: 1.1em;
             line-height: 1.6;
-            margin-bottom: 20px;
+            margin-bottom: 0;
+        }
+        
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 5px;
         }
     </style>
 </head>
 <body>
-    <div class="welcome-container">
-        <h1>Добро пожаловать на сайт!</h1>
+    <div class="card">
+        <h1> Добро пожаловать на сайт!</h1>
         
-        <h2>Что это такое?</h2>
+        <h2>❓ Что это такое?</h2>
         
-        <p>Привет! Это моя тестовая визитка написанная вручную, надеюсь получится нормально.</p>
-        <p>Внизу информация чуть поподробнее:.</p>
+        <p>👋 Привет! Это моя тестовая визитка написанная вручную, надеюсь получится нормально.</p>
+    </div>
+
+
     </div>
 </body>
 </html>
@@ -148,6 +175,83 @@
             <p>И да, это не Comic sans, это Shantell Sans</p>
         </footer>
     </article>
+
+    
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            background: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .article {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .article:last-child {
+            margin-bottom: 0;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        h2 {
+            color: #34495e;
+            border-left: 4px solid #b700ff;
+            padding-left: 15px;
+        }
+        
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+
+        
+        <!-- Первая статья -->
+        <article class="article">
+            <h2>Вкратце обо мне</h2>
+            <p>Снимал видео на Ютубе с 2017 года, но в 2021 году начал стримить на Твитче и пока что вполне получается это делать. Стримлю разный контент: обсуждение и разбор различных ситуаций, обзоры видеороликов, видеоигры(крайне редко). Также на канале есть развлекательная передача с Гачи Качелей "Under Вживую", где мы обсуждаем события минувшей недели, делимся впечатлениями и обозреваем видео.</p>
+        </article>
+        
+        <!-- Вторая статья -->
+        <article class="article">
+            <h2>Зачем это всё?</h2>
+            <p>Во первых чтобы просто попробовать, не более. Чисто изучить что это такое, ибо я вообще ни разу не програмист, а создавать визитку на тильде - это слишком легко и слишком стрёмно.</p>
+            
+        </article>
+        
+        <!-- Третья статья -->
+        <article class="article">
+            <h2>Кликабельные ссылки на меня:</h2>
+            <a href="https://twitch.tv/etozheygryk">Твитч</a>
+            <a href="https://t.me/ygryktg">Телеграм</a>
+            <a href="https://youtube.com/@ygryk_">Ютуб</a>
+            <a href="https://vk.com/etozheygryk">Группа Вконтакте</a>
+        </article>
+    </div>
 </body>
 
-</html>
+
+
+
+
+
+
+

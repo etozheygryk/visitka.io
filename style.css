@@ -154,3 +154,46 @@ margin: 30px 0;
 a:hover {
     color: #ff9900; 
     text-decoration: underline; 
+
+}
+
+
+ 
+    </style>
+</head>
+<body>
+    <article class="article">
+        <header class="article-header">
+            <h1 class="article-title">Заголовок интересной статьи</h1>
+            <div class="article-meta">
+                <span>Автор: Иван Иванов</span> • 
+                <span>Дата: 15 декабря 2023</span> • 
+                <span>Время чтения: 5 мин</span>
+            </div>
+        </header>
+        
+        <img src="https://via.placeholder.com/800x300" alt="Обложка статьи" class="article-image">
+        
+        <div class="article-content">
+            <p>Это введение в статью. Здесь вы можете написать краткое описание того, 
+               о чем пойдет речь в основной части текста.</p>
+            
+            <h2>Подзаголовок первого раздела</h2>
+            <p>Это первый абзац основного содержания. Здесь вы раскрываете первую мысль 
+               или идею вашей статьи. Текст должен быть хорошо структурирован и легко читаться.</p>
+            
+            <h2>Подзаголовок второго раздела</h2>
+            <p>Продолжение статьи. Можно добавлять списки, цитаты и другие элементы 
+               для разнообразия контента.</p>
+            
+            <blockquote>
+                Это пример цитаты. Важные мысли можно выделять таким образом.
+            </blockquote>
+        </div>
+        
+        <footer class="article-footer">
+            <p>Теги: HTML, CSS, Веб-разработка</p>
+        </footer>
+    </article>
+</body>
+</html>

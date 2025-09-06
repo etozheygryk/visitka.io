@@ -24,19 +24,129 @@
         </nav>
     <header> 
 
-    <div class="hero container"></div>
-     <div class="hero--info">
-     <h2>Добро пожаловать на сайт!</h2>
-     <h1>Что это такое?</h1>
-     <p> Привет! Это моя тестовая визитка написанная вручную, надеюсь получится нормально.</p>
-     <button class="btn">Тестовая кнопка</button>
-
-     </div>
-     
-     <img src="css/img/123.jpg" alt=""> Картинка не кликабельная.
-      
-   
-   <div>
+    <head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            text-align: center; /* Выравниваем текст по центру */
+            font-family: Shantell Sans, sans-serif;
+            margin: 0;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .welcome-container {
+            max-width: 600px;
+            margin: 0 auto; 
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <h1>Добро пожаловать на сайт!</h1>
+        
+        <h2>Что это такое?</h2>
+        
+        <p>Привет! Это моя тестовая визитка написанная вручную, надеюсь получится нормально.</p>
+        <p>Внизу информация чуть поподробнее:.</p>
+    </div>
 </body>
-
+</html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .article {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        
+        .article-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .article-title {
+            color: #2c3e50;
+            font-size: 2.2em;
+            margin-bottom: 15px;
+        }
+        
+        .article-meta {
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        
+        .article-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .article-content {
+            font-size: 1.1em;
+            color: #34495e;
+        }
+        
+        .article-content p {
+            margin-bottom: 20px;
+        }
+        
+        .article-footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ecf0f1;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <article class="article">
+        <header class="article-header">
+            <h1 class="article-title">Вкратце что тут будет</h1>
+          
+        
+        
+        <div class="article-content">
+            <p>Простенький сайт, где будут указаны контакты на меня(например они есть вверху этого сайта и красивая кнопка LINKS, нажав на которую НИЧЕГО не произойдёт).</p>
+            
+            <h2>Зачем мне это?</h2>
+            <p>Это что-то вроде онлайн визитки, на которую будет указанна ссылка(если я размещу на норм хостинг), если я сделаю свою печатную визиточку</p>
+            
+            
+            
+            <blockquote>
+                Ссылка на PNG версию визитки - https://i.nuuls.com/T3a4H.png
+            </blockquote>
+        </div>
+        
+        <footer class="article-footer">
+            <p>И да, это не Comic sans, это Shantell Sans</p>
+        </footer>
+    </article>
+</body>
 </html>

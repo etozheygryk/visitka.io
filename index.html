@@ -519,7 +519,7 @@
                 </div>
 
 
-                
+                <!DOCTYPE html>
 <html lang="ru">
 <head>
 
@@ -707,7 +707,7 @@
         .control-btn {
             padding: 8px 16px;
             background: #333;
-            color: white;
+            color: rgb(255, 255, 255);
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -741,60 +741,33 @@
 <body>
     <div class="container">
         
-        <header class="header">
-            <h1 class="name">Мои стримы на Твитче</h1>
-            <p style="color: white !important;">Ниже находится плеер Твитча, а также кнопка, ведущая непосредственно на мой канал.</p>
-        </header>
-        
-        
-        <main class="content">
-            
-            <section class="section">
-                <h2>Что происходит на стримах?</h2>
-                <p>На стримах происходит обсуждение новостей, просмотр и разбор видеороликов. Также на Твитче мы с моим другом Тимофеем Гачи Качелей проводим шоу "Under вживую"</p>
-            </section>
-            
-            
-            <div class="twitch-block">
-                <div class="twitch-header">
-                    <div class="twitch-title">
-                        🎮 Прямой эфир на Twitch 
-                        <span class="live-badge">LIVE</span>
-                    </div>
-                </div>
+        <div class="twitch-block">
+                <div class="twitch-title">🔴 Прямой эфир на Twitch</div>
                 
-                <div class="twitch-player-container">
-                    <div class="twitch-player-wrapper">
-                        
-                        <iframe src="https://player.twitch.tv/?channel=etozheygryk&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&quality=chunked&volume=0.7"
-                                allowfullscreen>
-                        </iframe>
-                    </div>
-                </div>
-                
-                <div class="player-controls">
-                    <button class="control-btn" onclick="toggleMute()">🔇/🔊</button>
-                    <button class="control-btn" onclick="togglePlay()">⏯️ Пауза</button>
-                </div>
-                
-                <div class="twitch-info">
-                    <div class="stream-title">twitch.tv/etozheygryk</div>
-                    <div class="streamer-name">etozheygryk</div>    
+                <div class="twitch-placeholder">
                     
+                    <p>Для просмотра стрима перейдите на мой канал:</p>
+                    <p style="color: #9146ff; font-size: 1.2em; margin: 20px 0;">etozheygryk</p>
+                    
+                   
+                    <a href="https://www.twitch.tv/etozheygryk" 
+                       class="twitch-link" 
+                       target="_blank"
+                       onclick="trackTwitchClick()">
+                        ▶️ Смотреть на Twitch
+                    </a>
+                    
+                    <p style="margin-top: 20px; font-size: 0.9em; color: #adb5bd;">
+                        Twitch плеер может не отображаться из-за политики безопасности.<br>
+                        Нажмите кнопку выше для перехода на Twitch.
+                    </p>
                 </div>
                 
-                <a href="https://twitch.tv/etozheygryk" 
-                   class="twitch-link" 
-                   target="_blank">
-                    ▶️ Смотреть на Twitch
-                </a>
-            </div>
+                <div style="margin-top: 20px;">
+                    <p style="color: #adb5bd;">
             
             
-            <section class="section">
-                <h2>📅 Расписание стримов</h2>
-                <p>Как такого расписания нет, за анонсами следите в Телеграме!</p>
-              
+           
             </section>
             
             
@@ -837,6 +810,5 @@
             
 
 </html>
-
 
 
